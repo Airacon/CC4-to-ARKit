@@ -56,19 +56,11 @@
    - Click on the **CC4 ARKit** tab.
 
 3. **Select Required Objects:**
-   - Choose the **Armature**, **Base Mesh**, and **Jaw Bone** from the dropdown lists.
+   - Choose the **Base Mesh**.
    - The UI will indicate if your selection is valid.
 
 4. **Convert CC4 to ARKit:**
    - Click the **Convert CC4 to ARKit** button.
-   - The add-on will:
-     - Rotate the jaw bone 20° on the Z-axis to capture the jaw open state.
-     - Create a driven shape key ("JawOpen") and rename shape keys from CC4 to ARKit format.
-     - Merge teeth/tongue (if available) into the base mesh.
-     - Restore the jaw bone to its original rotation.
-
-5. **Revert Functionality:**
-   - The revert operator exists in the code but its UI button is currently disabled.
 
 ## Troubleshooting
 
